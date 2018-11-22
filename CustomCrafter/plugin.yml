@@ -1,0 +1,5 @@
+main: me.wsman217.CustomCrafter.Main
+name: CustomCrafter
+version: 1.0
+author: wsman217
+description: Allows the server owner to add custom crafting recipes for existing items with or without enchantments.
