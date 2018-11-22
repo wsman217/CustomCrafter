@@ -8,6 +8,7 @@ import me.wsman217.CustomCrafter.messages.Messages;
 public class Main extends JavaPlugin {
 	public Messages messages;
 	public Recipes recipes;
+	//public RecipeAdder adder;
 
 	@Override
 	public void onEnable() {
@@ -19,13 +20,11 @@ public class Main extends JavaPlugin {
 		
 		messages = new Messages(this);
 		recipes = new Recipes(this);
-		
-		//getCommand("god").setExecutor(new me.wsman217.CustomCrafter.commands.GodCommand(this));
 	}
 
 	@Override
 	public void onDisable() {
-		System.out.println("God has been DISABLED");
+		System.out.println("CustomCrafter is DISABLED");
 		System.out.println("Author: wsman217");
 	}
 }
